@@ -180,6 +180,7 @@
 
         function explain() {
 
+            console.log(i)
 
             if (i == 0) {
                 document.body.style.backgroundImage = "url(" + pic01 + ")"
@@ -211,7 +212,6 @@
             else if (i == 9) {
                 document.body.style.backgroundImage = "url(" + pic10 + ")"
             }
-            console.log(i)
         }
 
     </script>
