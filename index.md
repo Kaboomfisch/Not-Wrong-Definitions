@@ -178,34 +178,34 @@
         
 
             function explain() {
-                if (document.getElementById("def").src == "file:///C:/Users/mauru/OneDrive/Dokumente/GitHub/Not-Wrong-Definitions/Assetination/definition01.png") {
+                if (document.getElementById("def").src == "https://kaboomfisch.github.io/Not-Wrong-Definitions/Assetination/definition01.png") {
                     document.body.style.backgroundImage = "url(" + pic01 + ")"
                 }
-                else if (document.getElementById("def").src == "file:///C:/Users/mauru/OneDrive/Dokumente/GitHub/Not-Wrong-Definitions/Assetination/definition02.png") {
+                else if (document.getElementById("def").src == "https://kaboomfisch.github.io/Not-Wrong-Definitions/Assetination/definition02.png") {
                     document.body.style.backgroundImage = "url(" + pic02 + ")"
                 }
-                else if (document.getElementById("def").src == "file:///C:/Users/mauru/OneDrive/Dokumente/GitHub/Not-Wrong-Definitions/Assetination/definition03.png") {
+                else if (document.getElementById("def").src == "https://kaboomfisch.github.io/Not-Wrong-Definitions/Assetination/definition03.png") {
                     document.body.style.backgroundImage = "url(" + pic03 + ")"
                 }
-                else if (document.getElementById("def").src == "file:///C:/Users/mauru/OneDrive/Dokumente/GitHub/Not-Wrong-Definitions/Assetination/definition04.png") {
+                else if (document.getElementById("def").src == "https://kaboomfisch.github.io/Not-Wrong-Definitions/Assetination/definition04.png") {
                     document.body.style.backgroundImage = "url(" + pic04 + ")"
                 }
-                else if (document.getElementById("def").src == "file:///C:/Users/mauru/OneDrive/Dokumente/GitHub/Not-Wrong-Definitions/Assetination/definition05.png") {
+                else if (document.getElementById("def").src == "https://kaboomfisch.github.io/Not-Wrong-Definitions/Assetination/definition05.png") {
                     document.body.style.backgroundImage = "url(" + pic05 + ")"
                 }
-                else if (document.getElementById("def").src == "file:///C:/Users/mauru/OneDrive/Dokumente/GitHub/Not-Wrong-Definitions/Assetination/definition06.png") {
+                else if (document.getElementById("def").src == "https://kaboomfisch.github.io/Not-Wrong-Definitions/Assetination/definition06.png") {
                     document.body.style.backgroundImage = "url(" + pic06 + ")"
                 }
-                else if (document.getElementById("def").src == "file:///C:/Users/mauru/OneDrive/Dokumente/GitHub/Not-Wrong-Definitions/Assetination/definition07.png") {
+                else if (document.getElementById("def").src == "https://kaboomfisch.github.io/Not-Wrong-Definitions/Assetination/definition07.png") {
                     document.body.style.backgroundImage = "url(" + pic07 + ")"
                 }
-                else if (document.getElementById("def").src == "file:///C:/Users/mauru/OneDrive/Dokumente/GitHub/Not-Wrong-Definitions/Assetination/definition08.png") {
+                else if (document.getElementById("def").src == "https://kaboomfisch.github.io/Not-Wrong-Definitions/Assetination/definition08.png") {
                     document.body.style.backgroundImage = "url(" + pic08 + ")"
                 }
-                else if (document.getElementById("def").src == "file:///C:/Users/mauru/OneDrive/Dokumente/GitHub/Not-Wrong-Definitions/Assetination/definition09.png") {
+                else if (document.getElementById("def").src == "https://kaboomfisch.github.io/Not-Wrong-Definitions/Assetination/definition09.png") {
                     document.body.style.backgroundImage = "url(" + pic09 + ")"
                 }
-                else if (document.getElementById("def").src == "file:///C:/Users/mauru/OneDrive/Dokumente/GitHub/Not-Wrong-Definitions/Assetination/definition10.png") {
+                else if (document.getElementById("def").src == "https://kaboomfisch.github.io/Not-Wrong-Definitions/Assetination/definition10.png") {
                     document.body.style.backgroundImage = "url(" + pic10 + ")"
                 }
                 console.log(document.getElementById("def").src)
