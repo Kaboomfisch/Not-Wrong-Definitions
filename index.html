@@ -129,7 +129,7 @@
 
     <script type="text/javascript">
 
-        var i = 1
+        var definition00 = "Assetination/definition00.png"
         var definition01 = "Assetination/definition01.png"
         var definition02 = "Assetination/definition02.png"
         var definition03 = "Assetination/definition03.png"
@@ -152,9 +152,9 @@
         var pic09 = "Assetination/pic09.png"
         var pic10 = "Assetination/pic10.png"
 
-            document.body.style.backgroundImage = "Assetination/definition00.png"
+        document.body.style.backgroundImage = definition00
 
-            var pics = [
+        var pics = [
             definition01,
             definition02,
             definition03,
@@ -165,51 +165,54 @@
             definition08,
             definition09,
             definition10
-            ];
-            function random() {
-                var i = Math.floor(Math.random() * Math.floor(10));
-                document.getElementById("def").src = pics[i];
-                console.log(document.getElementById("def").src)
+        ];
+        function random() {
+            document.body.style.backgroundImage = ""
+            i = Math.floor(Math.random() * Math.floor(10));
+            document.getElementById("def").src = pics[i];
+            console.log(i)
+            document.body.style.webkitBackgroundSize = "cover"
 
-            
-                document.body.style.webkitBackgroundSize = "cover"
-                console.log(i)
-            }
-        
 
-            function explain() {
-                if (document.getElementById("def").src == "file:///C:/Users/mauru/OneDrive/Dokumente/GitHub/Not-Wrong-Definitions/Assetination/definition01.png") {
-                    document.body.style.backgroundImage = "url(" + pic01 + ")"
-                }
-                else if (document.getElementById("def").src == "file:///C:/Users/mauru/OneDrive/Dokumente/GitHub/Not-Wrong-Definitions/Assetination/definition02.png") {
-                    document.body.style.backgroundImage = "url(" + pic02 + ")"
-                }
-                else if (document.getElementById("def").src == "file:///C:/Users/mauru/OneDrive/Dokumente/GitHub/Not-Wrong-Definitions/Assetination/definition03.png") {
-                    document.body.style.backgroundImage = "url(" + pic03 + ")"
-                }
-                else if (document.getElementById("def").src == "file:///C:/Users/mauru/OneDrive/Dokumente/GitHub/Not-Wrong-Definitions/Assetination/definition04.png") {
-                    document.body.style.backgroundImage = "url(" + pic04 + ")"
-                }
-                else if (document.getElementById("def").src == "file:///C:/Users/mauru/OneDrive/Dokumente/GitHub/Not-Wrong-Definitions/Assetination/definition05.png") {
-                    document.body.style.backgroundImage = "url(" + pic05 + ")"
-                }
-                else if (document.getElementById("def").src == "file:///C:/Users/mauru/OneDrive/Dokumente/GitHub/Not-Wrong-Definitions/Assetination/definition06.png") {
-                    document.body.style.backgroundImage = "url(" + pic06 + ")"
-                }
-                else if (document.getElementById("def").src == "file:///C:/Users/mauru/OneDrive/Dokumente/GitHub/Not-Wrong-Definitions/Assetination/definition07.png") {
-                    document.body.style.backgroundImage = "url(" + pic07 + ")"
-                }
-                else if (document.getElementById("def").src == "file:///C:/Users/mauru/OneDrive/Dokumente/GitHub/Not-Wrong-Definitions/Assetination/definition08.png") {
-                    document.body.style.backgroundImage = "url(" + pic08 + ")"
-                }
-                else if (document.getElementById("def").src == "file:///C:/Users/mauru/OneDrive/Dokumente/GitHub/Not-Wrong-Definitions/Assetination/definition09.png") {
-                    document.body.style.backgroundImage = "url(" + pic09 + ")"
-                }
-                else if (document.getElementById("def").src == "file:///C:/Users/mauru/OneDrive/Dokumente/GitHub/Not-Wrong-Definitions/Assetination/definition10.png") {
-                    document.body.style.backgroundImage = "url(" + pic10 + ")"
-                }
-                console.log(document.getElementById("def").src)
+            console.log(document.body.style.backgroundImage)
+        }
+
+
+        function explain() {
+
+
+            if (i == 0) {
+                document.body.style.backgroundImage = "url(" + pic01 + ")"
             }
+            else if (i == 1) {
+                document.body.style.backgroundImage = "url(" + pic02 + ")"
+            }
+            else if (i == 2) {
+                document.body.style.backgroundImage = "url(" + pic03 + ")"
+            }
+            else if (i == 3) {
+                document.body.style.backgroundImage = "url(" + pic04 + ")"
+            }
+            else if (i == 4) {
+                document.body.style.backgroundImage = "url(" + pic05 + ")"
+            }
+            else if (i == 5) {
+                document.body.style.backgroundImage = "url(" + pic06 + ")"
+            }
+            else if (i == 6) {
+                document.body.style.backgroundImage = "url(" + pic07 + ")"
+            }
+            else if (i == 7) {
+                document.body.style.backgroundImage = "url(" + pic08 + ")"
+            }
+            else if (i == 8) {
+                document.body.style.backgroundImage = "url(" + pic09 + ")"
+            }
+            else if (i == 9) {
+                document.body.style.backgroundImage = "url(" + pic10 + ")"
+            }
+            console.log(i)
+        }
 
     </script>
     <script defer=""></script>
