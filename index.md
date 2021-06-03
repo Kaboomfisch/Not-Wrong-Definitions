@@ -208,7 +208,7 @@
                 else if (document.getElementById("def").src == "https://kaboomfisch.github.io/Not-Wrong-Definitions/Assetination/definition10.png") {
                     document.body.style.backgroundImage = "url(" + pic10 + ")"
                 }
-                console.log(document.getElementById("def").src)
+                console.log(document.getElementById("def").src == "https://kaboomfisch.github.io/Not-Wrong-Definitions/Assetination/definition01.png")
             }
 
     </script>
