@@ -168,7 +168,7 @@
         ];
         function random() {
             document.body.style.backgroundImage = ""
-            i = Math.floor(Math.random() * Math.floor(10));
+            i = Math.floor(Math.random() * Math.floor(7));
             document.getElementById("def").src = pics[i];
             console.log(i)
             document.body.style.webkitBackgroundSize = "cover"
